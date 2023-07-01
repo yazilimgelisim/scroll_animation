@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #232323;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+}
+.area{
+    width: 100%;
+    height: 200px;
+    margin: 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area .data{
+    width: 70%;
+    height: 200px;
+    max-width: 1100px;
+    background-color: orange;
+    border-radius: 20px;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+    position: relative;
+    box-shadow: 0px 0px 5px orange, 0px 0px 12px orange;
+}
+.area .data .text{
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 25px;
+    color: rgb(75, 75, 75);
+    transition: all 0.5s;
+    left: 0px;
+    bottom: 0px;
+    font-family: 'Belanosima', sans-serif;
+}
+.area:nth-child(2n) .data{
+    background-color: lightblue;
+    transform: translateX(100%);
+    box-shadow: 0px 0px 5px lightblue, 0px 0px 12px lightblue;
+}
+.area:nth-child(2n) .data .text{
+    color: black;
+    top: 0px;
+}
+.area.active .data{
+    transform: translateX(0px);
+}
+.area.active .data .text{
+    height: 200px;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
