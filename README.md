@@ -5,4 +5,4 @@
 - Sayfa içesindeki dinamikliği hissettirme amacıyla kullanılmaktadır.
 
 ## Demo Project:
-- Projeyi indirmeden çıktısının nasıl bir şey olduğunu merak ediyorsanız [scrollanimation.onrender.com/](https://scrollanimation.onrender.com/) link'e tıklayarak projenin demo halini görüntüleyebilirsiniz.
+-  [scrollanimation.onrender.com/](https://scrollanimation.onrender.com/) 
